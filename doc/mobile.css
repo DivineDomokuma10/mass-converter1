@@ -1,0 +1,29 @@
+@media(orientation: portrait){
+    header{
+        height: 25%;
+    }
+    header h1{
+        margin-top: 5%;
+    }
+    #g-kg-btn-con{
+        width: 85%;
+        top: 5%;
+    }
+    main{
+        top: 35%;
+        left: 7%;
+        width: 85%;
+        height: 58%;
+    }
+    main h2{
+        margin-top: 5%;
+    }
+    @keyframes fade {
+        from{
+            left: 7%;
+        }
+        to{
+            left: 0%;
+        }
+    }
+}
